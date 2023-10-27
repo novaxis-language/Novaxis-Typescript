@@ -44,7 +44,7 @@ For comprehensive information on Novaxis's syntax, features, and usage, refer to
 
 ## Usage
 ```Typescript
-import { Core } from 'Novaxis-Typescript/src/Core/Runner';
+import { Core } from './Novaxis-Typescript/src/Core/Runner';
 var Runner = new Core.Runner('test.novaxis');
 console.log(Runner.execute());
 ```
